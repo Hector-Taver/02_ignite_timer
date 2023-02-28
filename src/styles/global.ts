@@ -1,3 +1,6 @@
+import {createGlobalStyle} from "styled-components"
+
+export const GlobalStyle = createGlobalStyle`
 * {
   margin: 0;
   padding: 0;
@@ -7,4 +10,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   /* font-family: 'Roboto Mono', monospace; */
+  background: #333;
+  color: #fff;
 }
+
+`
