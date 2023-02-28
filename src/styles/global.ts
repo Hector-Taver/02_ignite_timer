@@ -16,11 +16,31 @@ body {
   background: ${(props) => props.theme['gray-900']};
   color: ${(props) => props.theme['gray-300']};
   -webkit-font-smoothing: antialiased;
+
+  scrollbar-width: 5px;
+  scrollbar-color:  ${(props) => props.theme['green-500']} ${(props) =>
+  props.theme['gray-700']}
 }
 
 body, input, textarea, button {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1rem;
+}
+
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: ${(props) => props.theme['gray-700']};
+}
+
+::-webkit-scrollbar-thumb {
+    background: ${(props) => props.theme['green-500']};
+    border-radius: 5px;
 }
 `
