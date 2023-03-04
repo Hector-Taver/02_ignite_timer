@@ -2,7 +2,6 @@ import { createContext, ReactNode, useState, useReducer } from 'react'
 import { Cycle, cyclesReducer } from '../reducers/cycles/reducers'
 import {
   addNewCycleAction,
-  clearCountdownTimerAction,
   interruptCurrentCycleAction,
   markCurrentCycleAsFinishedAction,
 } from '../reducers/cycles/actions'
@@ -18,7 +17,6 @@ interface CyclesContextData {
   activeCycleId: string | null
   amountSecondsPassed: number
   markCurrentCycleAsFinished: () => void
-  clearCountdownTimer: () => void
   setSecondsPassed: (seconds: number) => void
   createNewCycle: (data: CreateCycleData) => void
   interruptCurrentCycle: () => void
@@ -68,10 +66,6 @@ export function CyclesContextProvider({
     dispatch(markCurrentCycleAsFinishedAction())
   }
 
-  function clearCountdownTimer() {
-    dispatch(clearCountdownTimerAction())
-  }
-
   return (
     <CyclesContext.Provider
       value={{
@@ -80,7 +74,6 @@ export function CyclesContextProvider({
         activeCycleId,
         amountSecondsPassed,
         markCurrentCycleAsFinished,
-        clearCountdownTimer,
         setSecondsPassed,
         createNewCycle,
         interruptCurrentCycle,
