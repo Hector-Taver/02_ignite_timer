@@ -34,5 +34,5 @@ O Ignite Timer é uma aplicação de pomodoro, onde podemos colocar qual tarefa 
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/7RnzAMy8yRyT3y7hXfToHt/Ignite-Timer?node-id=313%3A1874&t=IYbrgge4FtCmLvM2-1). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/7RnzAMy8yRyT3y7hXfToHt/Ignite-Timer?node-id=313%3A1874&t=IYbrgge4FtCmLvM2-1).
 
