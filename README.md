@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Para executar a aplicação é necessário rodar os seguintes comandos:
 - `npm install` para instalar as dependências da aplicação.
-- `npm run dev` para rodar a aplicação.
+- `npm run dev` para executar a aplicação.
 
 ## 🔖 Layout
 
