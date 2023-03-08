@@ -7,7 +7,8 @@ Segundo projeto desenvolvido durante o bootcamp Ignite da Rocketseat.
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-executar">Como executar</a>
 </p>
 
 <br>
@@ -16,7 +17,13 @@ Segundo projeto desenvolvido durante o bootcamp Ignite da Rocketseat.
   <img alt="projeto Ignite Timer" src=".github/preview.jpg" width="100%">
 </p>
 
-## 🚀 Tecnologias
+
+
+## 💻 Projeto
+
+O Ignite Timer é uma aplicação de pomodoro, onde podemos colocar qual tarefa vamos fazer e por quanto tempo iremos fazer. Também podemos visualizar o histórico pra saber quando uma tarefa foi iniciada, qual a duração de cada pomodoro e verificar o status atual (finalizado, em andamento ou interrompida).
+
+## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -27,9 +34,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - React Router DOM
 - Context API
 
-## 💻 Projeto
+## 🚀 Como executar
 
-O Ignite Timer é uma aplicação de pomodoro, onde podemos colocar qual tarefa vamos fazer e por quanto tempo iremos fazer. Também podemos visualizar o histórico pra saber quando uma tarefa foi iniciada, qual a duração de cada pomodoro e verificar o status atual (finalizado, em andamento ou interrompida).
+Para executar a aplicação é necessário rodar os seguintes comandos:
+- `npm install` para instalar as dependências da aplicação.
+- `npm run dev` para rodar a aplicação.
 
 ## 🔖 Layout
 
